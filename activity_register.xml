@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_marginTop="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="textLongMessage"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:inputType="number"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:entries="@array/usertypee"
+        android:layout_width="match_parent"
+        android:layout_height="53dp" />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a User!"
+        android:textSize="15dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

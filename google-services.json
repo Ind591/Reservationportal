@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "430722404449",
+    "firebase_url": "https://reservationportal-220e7.firebaseio.com",
+    "project_id": "reservationportal-220e7",
+    "storage_bucket": "reservationportal-220e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430722404449:android:0d0a8f3731751901711a20",
+        "android_client_info": {
+          "package_name": "com.example.reservationportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430722404449-92li8no522rhn8cmff8cfjmgku7l9dbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBsvbN57CDAZu2brR8XKKZyyrjJnkaavM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430722404449-92li8no522rhn8cmff8cfjmgku7l9dbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
